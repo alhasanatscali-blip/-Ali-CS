@@ -1,0 +1,3 @@
+name = "ali-cs-software"
+compatibility_date = "2026-06-29"
+main = "src/Index.tsx"
