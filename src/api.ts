@@ -5,7 +5,7 @@
 import { Hono } from 'hono'
 import { getCookie, setCookie, deleteCookie } from 'hono/cookie'
 import type { Bindings } from './types'
-import { slugify, sha256, randomToken, signSession, verifySession } from './utils'
+//import { slugify, sha256, randomToken, signSession, verifySession } from './utils'
 
 const api = new Hono<{ Bindings: Bindings; Variables: { admin?: any } }>()
 
